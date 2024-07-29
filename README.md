@@ -15,3 +15,9 @@ This project is about the implementation of a simple text classification system 
 ```bash
 make install
 ```
+
+## Usage
+```bash
+# Get the noun phrases of a given topic from a 5 sentence summary
+python3 wikiphrases.py --name "Barack Obama" --length 5 
+```
